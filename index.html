@@ -41,23 +41,25 @@
 
 
     <ul style="font-size: medium;">
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Introduction
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Introduction</b>
         <p>
           Open the directory in terminal and Initialize the empty git repository.
           <span style="background-color: whitesmoke; color: black;"> <i>git init</i></span>
           .It will create a .git directory in the current directory.
         </p>
       </li>
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Git Status
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Git Status</b>
         <p>
           Now one of the useful command here is <span style="background-color: whitesmoke; color: black;"> <i>git
               status</i></span>. It will tell you about what files are modified, added or deleted
         </p>
-        <img src="images/gitstatus.png" alt="gitSstaus image" width="90%">
+        <img src="images/gitstatus.png" alt="gitSstaus image" width="100%">
       </li>
-      <li style="margin-left:10% ; margin-right: 10%;">Git Add
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+
+        <b style="font-size: 24px;">Git Add</b>
         <p>
           Now it is time to add the files to staging area (Tracking changes). for that we'll use the command :
           <span style="background-color: whitesmoke; color: black;"> <i>git add (filename)</i></span> for specific file
@@ -65,45 +67,45 @@
           <span style="background-color: whitesmoke; color: black;"> <i>git add .</i></span> . for adding all files
 
         </p>
-        <img src="images/gitAdd.png" alt="gitAdd" width="90%">
+        <img src="images/gitAdd.png" alt="gitAdd" width="100%">
       </li>
 
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Git Commit
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Git Commit</b>
         <p>
           Once the files are in staging area you can save them to commit history via command <span style="
         background-color: black; color: white;"> <i>git commit -m "My First Commit" </i></span>
 
         </p>
-        <img src="images/First commit.png" alt="" width="90%">
+        <img src="images/First commit.png" alt="" width="100%">
       </li>
 
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Git log
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Git log</b>
         <p>
           you can check all your commit from the command <span style="background-color: whitesmoke; color: black;">
             <i>git
               log or git log --oneline</i></span>
 
         </p>
-        <img src="images/gitLog.png" alt="" width="90%">
+        <img src="images/gitLog.png" alt="" width="100%">
       </li>
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Upload on GitHub
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Upload on GitHub</b>
         <p>ow upload these changes to GitHub.
           for that we have to link our local repository to github repository. <span
             style="background-color: whitesmoke; color: black;"> <i>git remote add origin URL </i></span> ( URL will be
           provided by gitHub ).</p>
-        <img src="images/gitOrigin.png" alt="" width="90%">
+        <img src="images/gitOrigin.png" alt="" width="100%">
       </li>
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Push code on gitHub
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Push code on gitHub</b>
         <p>Now the next step is to push the code on git hub.To push your code on gitHub we use the following cmmand</p>
         <span style="background-color: whitesmoke; color: black;"> <i>git push -u origin main / branch-name </i></span>
-        <img src="images/gitPush.png" alt="">
+        <img src="images/gitPush.png" alt="" width="100%" ;">
       </li>
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Git Pull
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Git Pull</b>
         <p>Git pull command is used to pull the code from gitHub to your local repository and to make your local and
           online repository at the same level</p>
         <span style="background-color: whitesmoke; color: black;"> <i>git pull </i></span>
@@ -111,23 +113,23 @@
 
       <h2 style="margin-left:50px ; margin-right: 200px;">Branching........</h2>
 
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Create & move to new branch
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Create & move to new branch</b>
         <p>The best feature of the git is to create a new branch where we can add new feature and test them without
           distubing the main code. For this we can use the following command</p>
         <span style="background-color: whitesmoke; color: black;"> <i>git checkout -b new-feature</i></span>
-        <img src="images/createNmove.png" alt="create and move to new branch" width="90%">
+        <img src="images/createNmove.png" alt="create and move to new branch" width="100%">
       </li>
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Return to main Branch
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Return to main Branch</b>
         <p>
           To return to main branch we have to use the following command.
           <span style="background-color: whitesmoke; color: black;"> <i>git checkout main</i></span>
         </p>
-        <img src="images/checkOut main.png" alt="checkout at main" width="90%">
+        <img src="images/checkOut main.png" alt="checkout at main" width="100%">
       </li>
-      <li style="margin-left:10% ; margin-right: 10%;">
-        Delete a Branch
+      <li style="margin-left:10% ; margin-right: 10%; margin-bottom: 5%;">
+        <b style="font-size: 24px;">Delete a Branch</b>
         <p>Now if we want to delete a branch we can use the following code</p>
         <span style="background-color: whitesmoke; color: black;"> <i>git branch -d new-feature</i></span><br>
         <img src="images/deleteBranch.png" alt="Delete the branch">
