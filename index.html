@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body style="background-color: black; color: whitesmoke;">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Git Tutorial</a>
@@ -45,22 +45,23 @@
         Introduction
         <p>
           Open the directory in terminal and Initialize the empty git repository.
-          <span style="background-color: black; color: white;"> <i>git init</i></span>
+          <span style="background-color: whitesmoke; color: black;"> <i>git init</i></span>
           .It will create a .git directory in the current directory.
         </p>
       </li>
       <li style="margin-left:100px ;">
         Git Status
         <p>
-          Now one of the useful command here is <span style="background-color: black; color: white;"> <i>git
+          Now one of the useful command here is <span style="background-color: whitesmoke; color: black;"> <i>git
               status</i></span>. It will tell you about what files are modified, added or deleted
         </p>
       </li>
       <li style="margin-left:100px ; margin-right: 200px;">Git Add
         <p>
           Now it is time to add the files to staging area (Tracking changes). for that we'll use the command :
-          <span style="background-color: black; color: white;"> <i>git add (filename)</i></span> for specific file or
-          <span style="background-color: black; color: white;"> <i>git add .</i></span> . for adding all files
+          <span style="background-color: whitesmoke; color: black;"> <i>git add (filename)</i></span> for specific file
+          or
+          <span style="background-color: whitesmoke; color: black;"> <i>git add .</i></span> . for adding all files
 
         </p>
       </li>
@@ -77,7 +78,8 @@
       <li style="margin-left:100px ; margin-right: 200px;">
         Git log
         <p>
-          you can check all your commit from the command <span style="background-color: black; color: white;"> <i>git
+          you can check all your commit from the command <span style="background-color: whitesmoke; color: black;">
+            <i>git
               log or git log --oneline</i></span>
 
         </p>
@@ -86,24 +88,50 @@
         Upload on GitHub
         <p>ow upload these changes to GitHub.
           for that we have to link our local repository to github repository. <span
-            style="background-color: black; color: white;"> <i>git remote add origin URL </i></span> ( URL will be
+            style="background-color: whitesmoke; color: black;"> <i>git remote add origin URL </i></span> ( URL will be
           provided by gitHub ).</p>
       </li>
       <li style="margin-left:100px ; margin-right: 200px;">
         Push code on gitHub
         <p>Now the next step is to push the code on git hub.To push your code on gitHub we use the following cmmand</p>
-        <span style="background-color: black; color: white;"> <i>git push -u origin main / branch-name </i></span>
+        <span style="background-color: whitesmoke; color: black;"> <i>git push -u origin main / branch-name </i></span>
       </li>
-      <li>
+      <li style="margin-left:100px ; margin-right: 200px;">
         Git Pull
-        
+        <p>Git pull command is used to pull the code from gitHub to your local repository and to make your local and
+          online repository at the same level</p>
+        <span style="background-color: whitesmoke; color: black;"> <i>git pull </i></span>
       </li>
 
+      <h2 style="margin-left:50px ; margin-right: 200px;">Branching........</h2>
+
+      <li style="margin-left:100px ; margin-right: 200px;">
+        Create & move to new branch
+        <p>The best feature of the git is to create a new branch where we can add new feature and test them without
+          distubing the main code. For this we can use the following command</p>
+        <span style="background-color: whitesmoke; color: black;"> <i>git checkout -b new-feature</i></span>
+      </li>
+      <li style="margin-left:100px ; margin-right: 200px;">
+        Return to main Branch
+        <p>
+          To return to main branch we have to use the following command.
+          <span style="background-color: whitesmoke; color: black;"> <i>git checkout main</i></span>
+        </p>
+      </li>
+      <li style="margin-left:100px ; margin-right: 200px;">
+        Delete a Branch
+        <p>Now if we want to delete a branch we can use the following code</p>
+        <span style="background-color: whitesmoke; color: black;"> <i>git branch -d new-feature</i></span>
+
+
+      </li>
 
 
     </ul>
 
-    </p>
+
+
+
 
 
 
